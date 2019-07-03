@@ -6,7 +6,7 @@ body, html {
 }
   
 .bgimg {
-    background-image: url('../img/commingsoon.jpg');
+    background-image: url('https://szilardkosa.github.io/krakkoinyaralas/img/commingsoon.jpg');
     background-position: center;
     background-size: cover;
     color: white;
