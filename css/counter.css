@@ -46,6 +46,31 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
+.middle p {
+    font-size: 40px;
+}
+
+@media screen and (max-height: 500px) , (max-width: 900px){
+    .bgimg {
+        font-size: 18px;
+    }
+
+    .middle {
+        font-size: 10px;
+    }
+    
+    .middle h1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle p {
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
 /* Style the <hr> element */
 hr {
     margin: auto;
