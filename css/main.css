@@ -6,29 +6,123 @@ body {
     padding: 0;
 }
 
+/* HEADER */
+
 header {
     background: #5cdb95;
-    padding: 40px;
+    padding: 25px;
 }
 
-header:hover {
-    color: #05386b;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #05386b;
+    /* box-shadow: 5px 5px 10px #3f9968; */
+}
+
+/* SECTIONS */
 
 section {
     padding: 20px;
-    height: 500px;
+    /* height: 500px; */
 }
 
-section.parallax {
-    background: white;
+/* PARALLAX */
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/commingsoon.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Set a specific height */
+    min-height: 600px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center */
 }
 
-section.main-stuff {
+.parallax h1, .parallax h2, .parallax p{
+    background: #5cdb95;
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 0; */
+    text-align: center;
+    width: 300px;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    padding: 40px 20px;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+}
+
+/* PARALLAX 2 */
+
+.parallax-2 {
+    /* The image used */
+    background-image: url('../img/parallax2.jpg');
+}
+
+/* MAIN SECTION */
+
+.main-stuff {
     background: #5cdb95;
     color: #05386b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
+.main-stuff div {
+    background: white;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+}
+
+/* PARALLAX 3 */
+
+.parallax p {
+    background: gray;
+}
+
+/* FOOTER */
+
 footer {
+    font-size: 12px;
     padding: 10px 20px;
+    text-align: center;
 }
