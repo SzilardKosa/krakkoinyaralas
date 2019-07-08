@@ -92,7 +92,6 @@ nav a:hover {
 .main-stuff {
     background: #5cdb95;
     color: #05386b;
-    position: relative;
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
@@ -219,18 +218,29 @@ nav a:hover {
   }
 
 .map {
-    margin-left: 50px;
-    /* position: absolute;           
-    left: 50%;                  
-    transform: translate(-50%, 0); */
+    padding: 40px 0;
 }
+
+.map iframe {
+    display: block;
+    margin: auto;
+}
+
+/* PARALLAX 3 */
+
+.parallax-3 {
+    background-image: url('../img/parallax3.jpeg');
+}
+
+/* MENU */
 
 .main-stuff ul {
     margin: 0;
     padding: 20px;
+    list-style-type: none;
 }
 
-/* PARALLAX 3 */
+/* PARALLAX 4 */
 
 .parallax p {
     background: gray;
